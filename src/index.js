@@ -37,7 +37,7 @@ function fetchToys(){
 function renderToy(toy){
   const collection = document.getElementById('toy-collection')
   const card = document.createElement('div')
-  card.class = "card"
+  card.className = "card"
   
   const h2 = document.createElement('h2')
   h2.innerText = toy.name
